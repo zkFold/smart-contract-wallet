@@ -1,4 +1,4 @@
-module ZkFold.Wallet.API where
+module ZkFold.Wallet.SymbolicAPI where
 
 import           Prelude             (IO)
 import qualified Prelude             as P

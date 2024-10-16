@@ -5,10 +5,9 @@ version:            0.1.0.0
 tested-with:        GHC == 9.6.3
 synopsis:           ZkFold Smart contract wallet server 
 homepage:           https://zkfold.io/
-category:           Cryptography, DSL, Math, Symbolic Computation
-author:             Vladimir Sinyakov, Pavel Sokolov, Vladimir Morozov, Eitan Chatav, Ilya Baryshnikov, Anna Hovanskaya, Evgenii Samodelov, Murat Kasimov, Maxim Churilov
+category:           REST API, Smart Contracts, Finances 
+author:             Vladimir Morozov
 maintainer:         vlasin@zkfold.io
-license:            MIT
 license-file:       LICENSE
 build-type:         Simple
 
@@ -89,7 +88,7 @@ library
     import: options
     exposed-modules:
       ZkFold.Wallet
-      ZkFold.Wallet.API
+      ZkFold.Wallet.SymbolicAPI
       ZkFold.Wallet.Server
     other-modules:
       ZkFold.Wallet.Types
