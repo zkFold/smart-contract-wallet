@@ -1,6 +1,6 @@
 # zkFold Symbolic Wallet server and API 
 
-This package contains zkFold Wallet backend, including a [Haskell API](src/ZkFold/Symbolic/Wallet/API.hs), a wallet [server backend](src/ZkFold/Symbolic/Wallet/Server.hs) and a [server executable](app/Main.hs). The server supports Cardano [CIP-30 API](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030).
+This package contains zkFold Wallet backend, including a [Haskell API](src/ZkFold/Wallet/API.hs), a wallet [server backend](src/ZkFold/Wallet/Server.hs) and a [server executable](app/Main.hs). The server supports Cardano [CIP-30 API](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0030).
 
 # Building
 
