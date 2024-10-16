@@ -1,9 +1,9 @@
 module Main where
 
 import           Options.Applicative
-import           Prelude                       (IO, Int, (<>))
+import           Prelude              (IO, Int, (<>))
 
-import           ZkFold.Symbolic.Wallet.Server (run)
+import           ZkFold.Wallet.Server (run)
 
 data Params = Params
     { port :: Int }

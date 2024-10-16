@@ -88,12 +88,12 @@ common options-exe
 library
     import: options
     exposed-modules:
-      ZkFold.Symbolic.Wallet
-      ZkFold.Symbolic.Wallet.API
-      ZkFold.Symbolic.Wallet.Server
+      ZkFold.Wallet
+      ZkFold.Wallet.API
+      ZkFold.Wallet.Server
     other-modules:
-      ZkFold.Symbolic.Wallet.Types
-      ZkFold.Symbolic.Wallet.Server.Types
+      ZkFold.Wallet.Types
+      ZkFold.Wallet.Server.Types
     build-depends:
       base                          >= 4.9 && < 5,
       aeson                                      ,

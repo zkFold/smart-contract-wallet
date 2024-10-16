@@ -1,15 +1,15 @@
-module ZkFold.Symbolic.Wallet.Server where
+module ZkFold.Wallet.Server where
 
 import           Data.Text
 import           Network.Wai
 import           Network.Wai.Handler.Warp
-import           Prelude                             (IO, ($), (++), (=<<))
-import qualified Prelude                             as P
+import           Prelude                    (IO, ($), (++), (=<<))
+import qualified Prelude                    as P
 import           Servant
-import           System.IO                           (hPutStrLn, stderr)
+import           System.IO                  (hPutStrLn, stderr)
 
-import           ZkFold.Symbolic.Wallet.Server.Types
-import           ZkFold.Symbolic.Wallet.Types
+import           ZkFold.Wallet.Server.Types
+import           ZkFold.Wallet.Types
 
 run :: Port -> IO ()
 run port = do

@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveAnyClass #-}
 
-module ZkFold.Symbolic.Wallet.Types where
+module ZkFold.Wallet.Types where
 
 import           Control.DeepSeq (NFData)
 import           Data.Aeson

@@ -1,9 +1,9 @@
-module ZkFold.Symbolic.Wallet.Server.Types where
+module ZkFold.Wallet.Server.Types where
 
-import           Data.Text                    (Text)
+import           Data.Text           (Text)
 import           Servant
 
-import           ZkFold.Symbolic.Wallet.Types
+import           ZkFold.Wallet.Types
 
 type WalletAPI =
          "api" :> "getExtensions" :> Get '[JSON] [Text]
