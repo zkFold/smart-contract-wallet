@@ -12,6 +12,14 @@ cabal build -f pedantic
 
 # Running the server
 
+First, set up Maestro API key and endpoint in .env:
+
+```
+API_KEY=
+URL=
+NETWORK_ID=
+```
+
 After build, replace XXXX with the port number (default is 3000) and run
 
 ```bash
