@@ -96,9 +96,18 @@ library
     build-depends:
       base                          >= 4.9 && < 5,
       aeson                                      ,
+      aeson-casing                               ,
+      aeson-picker                               ,
+      bytestring                                 ,
+      containers                                 ,
       deepseq                                    ,
+      dotenv                                     ,
+      ed25519                                    ,
+      request                                    ,
       servant-server                             ,
       text                                       ,
+      transformers                               ,
+      utf8-string                                ,
       wai                                        ,
       warp
     hs-source-dirs: src
